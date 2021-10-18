@@ -6,7 +6,7 @@ import { CKEditor } from "ckeditor4-react";
 export default function Home() {
   const ckEditorConfig = {
     width: "80vw",
-    height: "47vh",
+    height: "43vh",
   };
   // const ckEditorStyle = {};
   const message = "Past here";
@@ -21,7 +21,9 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Paste Here</h1>
-        <p>after finished click on &apos;Source&apos; </p>
+        <p className={styles.subTitle}>
+          after finished click on &apos;Source&apos;{" "}
+        </p>
         <CKEditor
           config={ckEditorConfig}
           // style={ckEditorStyle}

@@ -21,7 +21,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Paste Here</h1>
-        <p>after finished click on 'Source' </p>
+        <p>after finished click on &apos;Source&apos; </p>
         <CKEditor
           config={ckEditorConfig}
           // style={ckEditorStyle}

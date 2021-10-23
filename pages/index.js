@@ -22,7 +22,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Paste Here</h1>
         <p className={styles.subTitle}>
-          after finished click on &apos;Source&apos;{" "}
+          after finished click on &apos;Source&apos;{" "} and copy
         </p>
         <CKEditor
           config={ckEditorConfig}
